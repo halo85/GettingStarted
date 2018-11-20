@@ -1,0 +1,1 @@
+# Žmogaus svoris skirtingose planetose
