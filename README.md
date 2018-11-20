@@ -1,1 +1,1 @@
-# Žmogaus skirtingose planetose
+# Žmogaus svoris skirtingose planetose
