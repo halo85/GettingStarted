@@ -15,9 +15,10 @@ public class SpaceBoxing {
     System.out.println();
     System.out.println("Informacija apie planetas:");
     System.out.println();
-    System.out.println("   1. Merkurijus    2. Venera      3. Marsas");
-    System.out.println("   4. Jupiteris     5. Saturnas    6. Uranas");
-    System.out.println("   7. Neptunas      8. Plutonas    9. Saule");
+    System.out.println("   1.  Merkurijus    2.  Venera      3.  Marsas");
+    System.out.println("   4.  Jupiteris     5.  Saturnas    6.  Uranas");
+    System.out.println("   7.  Neptunas      8.  Plutonas    9.  Saule");
+    System.out.println("   10. Menulis       11. Plutonas    12. Saule");
     System.out.println();
     System.out.print("Kuria planeta lankysite? ");
     System.out.println();
@@ -42,6 +43,8 @@ public class SpaceBoxing {
       planetWeight = (earthWeight / 9.81) * 0.68;
     } else if (planet == 9) {
       planetWeight = (earthWeight / 9.81) * 274;
+    } else if (planet == 10) {
+      planetWeight = (earthWeight / 9.81) * 1.62;
     } else {
       System.out.println("Nera tokios planetos.");
     }
