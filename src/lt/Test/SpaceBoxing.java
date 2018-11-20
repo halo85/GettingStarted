@@ -51,6 +51,7 @@ public class SpaceBoxing {
       planetWeight = (earthWeight / 9.81) * 1.428;
     } else {
       System.out.println("Nera tokios planetos.");
+      System.exit(0);
     }
     System.out.println("Jusu svoris bus " + planetWeight + " kilogramu sioje planetoje.");
   }
